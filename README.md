@@ -22,10 +22,14 @@ Please go through the "Pruning MTCNN Tutorial" and "Pruning MobileFaceNet Tutori
 
 ## How to Use 
 
-### Prepare the training dataset and put it into the "data_set" folder
+### Prepare the training dataset
+put the dataset into folder "data_set"
 1. MobileFaceNet: faces_emore, LFW, CFP-FP and AgeDB-30 from [Model Zoo](https://github.com/deepinsight/insightface/wiki/Dataset-Zoo)
-2. MTCNN: [WIDER FACE](http://shuoyang1213.me/WIDERFACE/), [CNN_FacePoint](http://mmlab.ie.cuhk.edu.hk/archive/CNN_FacePoint.htm), prepare 12x12, 24x24, 48x48 images respectively, and put the annotation files into "data_preprocessing/anno_store"
-. Refer to [MTCNN_Tutorial](https://github.com/xuexingyu24/MTCNN_Tutorial) for the data preparation 
+2. MTCNN: 
+* [WIDER FACE](http://shuoyang1213.me/WIDERFACE/), [CNN_FacePoint](http://mmlab.ie.cuhk.edu.hk/archive/CNN_FacePoint.htm), 
+* prepare 12x12, 24x24, 48x48 images respectively, 
+* put the annotation files into "data_preprocessing/anno_store"
+* Refer to [MTCNN_Tutorial](https://github.com/xuexingyu24/MTCNN_Tutorial) for the data preparation 
 
 ### Pruning
 * **MTCNN** 
